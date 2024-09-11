@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <style>
+       
+        img {
+            max-width: 100%;
+            height: auto;
+            display:block;
+            margin:auto;
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Images Example</h1>
+    <p>This image will adjust its size based on the screen width:</p>
+    <img src="taddy.jpg" alt="Responsive Image">
+   
+</body>
+</html>
