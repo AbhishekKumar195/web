@@ -1,189 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Multimedia Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <style>
-    *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-body{
-    background-color: #f0f0f0;
-}
-.card-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.card{
-    width: 325px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0 ,0 ,0.2);
-    margin: 20px;
-}
-.card img{
-    width: 100%;
-    height: auto;
-
-}
-.card-containent{
-  padding: 16px;
-
-}
-.card-containent h3{
-    font-size: 28px;
-    margin-bottom: 8px;
-}
-.card-containent p{
-    color:#666;
-    font-size: 15px;
-    line-height: 1.3;
-}
-.card-containent .btn{
-        display: inline-block;
-        padding: 8px 16px;
-        background-color: #333;
-        text-decoration: none;
-        border-radius: 4px;
-        margin-top: 16px;
-        color:#fff;
-
-}
-.card-containent .btn:hover{
-    color:orange;
-    cursor: pointer;
-}
-.btn:visited{
-    color:red;
-    text-decoration: underline;
-}
-
-#about-section {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#about-section h2 {
-  color: #333;
-  font-size: 30px;
-  margin-bottom: 10px;
-  
-}
-
-#about-section p {
-  color: #666;
-  font-size: 16px;
-  line-height: 1.5;
-}
-#about-section h2:hover{
-color:violet;
-cursor: pointer;
-}
-
-
-  </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PGC-GYM Landing Page</title>
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <!-- JS -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="zymStyle.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to My Multimedia Website</h1>
-  </header>
-  
-  <nav>
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/galary.html">Gallery</a></li>
-      <li><a href="/audio.html">Audio</a></li>
-      <li><a href="/video.html">Video</a></li>
-    </ul>
-  </nav>
-  
-  <main>
-    <section>
-      <h2>Welcome to my multimedia website</h2>
-    </section>
-  </main>
+    <!-- Menu -->
+    <div class="menu">
+        <div class="container flex">
+            <!-- Mobile Button -->
+            <div class="mobile-btn">
+                <ion-icon name="grid"></ion-icon>
+            </div>
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/logo.png" alt="" />
+            </div>
 
-  <container>
-    <div>
-      <H1>About Atal Bihari Vajpayee</H1>
-      <p>Atal Bihari Vajpayee was an Indian politician and poet who served three terms as the Prime Minister of India, first for a term of 13 days in 1996, then for a period of 13 months from 1998 to 1999, followed by a full term from 1999 to 2004.</p>
-    </div>
-    <div></div>
-  </container>
-  <div class="card-container">
-    <div class="card">
-        <img src="atal-bihari-vajpayee.jpg" alt="loading Error">
-        <div class="card-containent">
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero pariatur nulla eos? 
-                Laboriosam word praesentium voluptatem,porro facere distinctio magnam magni odio,</p>
-                <a href="" class="btn">Read More</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="atal-Bihari-Vajpayee.jpg" alt="loading Error">
-        <div class="card-containent">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero pariatur nulla eos? 
-                Laboriosam word praesentium voluptatem,porro facere distinctio magnam magni odio,</p>
-            <a href="" class="btn">Read More</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="atal-bihari-vajpayee.jpg" alt="loading Error">
-        <div class="card-containent">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero pariatur nulla eos? 
-                Laboriosam word praesentium voluptatem,porro facere distinctio magnam magni odio,</p>
-            <a href="" class="btn">Read More</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="atal-bihari-vajpayee.jpg" alt="loading Error">
-        <div class="card-containent">
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero pariatur nulla eos? 
-                Laboriosam word praesentium voluptatem,porro facere distinctio magnam magni odio,</p>
-            <a href="" class="btn">Read More</a>
-        </div>
-    </div>
-</div>
-<main>
-  <section id="about-section">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget velit non libero pharetra feugiat. Vivamus a urna a tellus consequat ultrices. Nullam sed justo vel tortor dictum aliquet id nec purus. 
-      Cras commodo lorem eu nisl laoreet, et malesuada risus scelerisque.</p>
-    <p>Phasellus volutpat fermentum magna, sed lacinia tortor fringilla eu. Integer sit amet ligula quam. Mauris aliquet est vel quam aliquam, vitae convallis ipsum venenatis. Nulla facilisi. Praesent gravida.
-       justo ac ligula suscipit, vitae suscipit sapien tempor.</p>
-  </section>
-  <section id="audio-section">
-    <h2>Featured Audio</h2>
-    <audio controls>
-      <source src="audio-file.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </section>
-  <section id="video-section">
-    <h2>Featured Video</h2>
-    <video controls width="640" height="360">
-      <source src="WhatsApp Video 2024-02-09 at 12.18.57 AM.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </section>
-</main>
-</main>
+            <ul class="nav">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#why-us">Features</a></li>
+                <li class="nav-item"><a href="#why-us">Supliment</a></li>
 
-  <h1 style="text-align: center; font-size: larger;">Thanks to visit</h1>
-  <footer>
-    <p>&copy; 2024 My Multimedia Website</p>
-  </footer>
+                <li class="nav-item"><a href="#explore">Explore</a></li>
+                <li class="nav-item"><a href="#discount">Trainer</a></li>
+                <li class="nav-item"><a href="#why-us">Attendence</a></li>
+                <li class="nav-item"><a href="#why-us">View</a></li>
+                <li class="nav-item"><a herf="#why-us">loation</a></li>
+
+            </ul>
+
+            <a href="#" class="btn">Register</a>
+        </div>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container flex">
+            <div class="text">
+                <h1 class="mb">
+                    Complete Daily <br />
+                    <span>Workout</span> At Home
+                </h1>
+
+                <p class="mb">
+                    Warm-Up: Start with 5 minutes of dynamic stretches like arm circles, leg swings, and torso twists.
+
+                    Cardio: Do 15 minutes of jump rope or running in place to get your heart rate up.
+                    Strength Training: Complete 3 sets of bodyweight squats, push-ups, and lunges (12-15 reps each).
+                    Core Work: Do planks and crunches for 10 minutes.
+                    Cool Down: Spend 5 minutes stretching major muscle groups like hamstrings, chest, and back.
+                    Hydrate: Drink water throughout and after your workout for recovery.
+                    This routine targets all major muscle groups, improves cardiovascular fitness, and promotes flexibility—all in the comfort of your home. Adjust repetitions and intensity based on your fitness level for best results
+                </p>
+
+                <a href="#" class="btn mt">Get Started Now</a>
+            </div>
+
+            <div class="visual">
+                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/banner-img.png" alt="" />
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Why Us -->
+    <div class="section" id="why-us">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="primary mb">Why Choose Us?</h2>
+                <h3 class="secondary mb">Consulatation with Expert.</h3>
+                <p class="tertiary">
+                    offers unparalleled expertise and personalized guidance in various domains. Our team of seasoned professionals ensures tailored solutions to meet your specific needs.
+                </p>
+
+                <h3 class="secondary mb">Consulatation with Expert.</h3>
+                <p class="tertiary">
+                    offers unparalleled expertise and personalized guidance in various domains. Our team of seasoned professionals ensures tailored solutions to meet your specific needs,
+                </p>
+            </div>
+            <div class="visual">
+                <img src="Gym.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- End Why Us -->
+
+    <!-- Explore -->
+    <div class="section" id="explore">
+        <div class="container flex">
+            <div class="visual">
+                <img src="Gyms.jpg" alt="" />
+            </div>
+            <div class="text">
+                <h2 class="primary mb">
+                    Explore Our Fitness <br />
+                    Studio
+                </h2>
+                <p class="tertiary mb">
+                    invites you to discover a dynamic space dedicated to health and wellness. Featuring state-of-the-art equipment and expert instructors, our studio offers diverse fitness programs tailored to all levels.
+                </p>
+
+                <a href="#" class="btn mt">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Explore -->
+
+    <!-- Trainer -->
+    <div class="section" id="trainer">
+        <h2 class="primary mb">Our Professional Trainers</h2>
+        <div class="container flex">
+            <div class="trainer">
+                <img src="kalin.jpg" alt="" />
+                <h3 class="secondary mb">Kalin Bhaiya</h3>
+                <p class="tertiary mb">
+                    our studio offers diverse fitness programs tailored to all levels.
+                </p>
+
+                <a href="#" class="btn-2">
+                    <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+                </a>
+            </div>
+
+            <div class="trainer">
+                <img src="Munna.jpg" alt="" />
+                <h3 class="secondary mb">Munna Bhaiya</h3>
+                <p class="tertiary mb">
+                    our studio offers diverse fitness programs tailored to all levels.
+                </p>
+
+                <a href="#" class="btn-2">
+                    <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+                </a>
+            </div>
+
+            <div class="trainer">
+                <img src="Guddu.jpg" alt="" />
+                <h3 class="secondary mb">Guddu Bhaiya</h3>
+                <p class="tertiary mb">
+                    our studio offers diverse fitness programs tailored to all levels.
+                </p>
+
+                <a href="#" class="btn-2">
+                    <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End Trainer -->
+
+    <!-- Testimonial -->
+    <div class="section" id="testimonial">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="primary">
+                    That's What Our Super <br />
+                    Client Says
+                </h2>
+
+                <br />
+                <br />
+                <br />
+
+                <div class="client">
+                    <img src="miya1.webp" alt="" />
+                    <h2 class="secondary">Exelent Training</h2>
+                    <p class="tertiary">
+                        Excellent Training" provides top-tier instruction and support to maximize your fitness journey. With certified trainers and a personalized approach, we tailor workouts to your goals and abilities, ensuring efficient progress and motivation. Experience excellence in every session, whether aiming for strength, flexibility, weight loss, or overall fitness enhancement. Join us and discover the transformative power of exceptional training for a healthier, stronger you.
+                    </p>
+                </div>
+            </div>
+            <div class="visual">
+                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/testimonial.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Discount -->
+    <div class="section" id="discount">
+        <div class="container flex">
+            <div class="visual">
+                <img src="virat-kohli.jpg" alt="" />
+            </div>
+            <div class="text">
+                <h2 class="primary mb">
+                    Fitness Classes This Summer, Pay Now And Get 25% Discount
+                </h2>
+
+                <p class="tertiary mb">
+                    Excellent Training" provides top-tier instruction and support to maximize your fitness journey. With certified trainers and a personalized approach, we tailor workouts to your goals and abilities, ensuring efficient progress and motivation. Experience excellence in every session, whether aiming for strength, flexibility, weight loss, or overall fitness enhancement. Join us and discover the transformative power of exceptional training for a healthier, stronger you.
+                </p>
+
+                <a href="#" class="btn bt">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Discount -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container flex">
+            <p class="tertiary">
+                &copy; 2024 Done By Abhi. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+    <script src="script.js"></script>
 </body>
+
 </html>
